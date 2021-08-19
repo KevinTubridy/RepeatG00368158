@@ -1,0 +1,33 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <img src ="https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <table  width="700" height="150" style ="background-color:#007ffd;">
+    
+  <ul>
+    <li [routerLink] ="['/liverpoolplayers']" routerDirection="forward">Liverpool</li>
+    <br>
+    <li [routerLink] ="['/mancity']" routerDirection="forward">Manchester City</li>
+    <br>
+    <li [routerLink] ="['/chelsea']" routerDirection="forward">Chelsea</li>
+    <br>
+    <li [routerLink] ="['/manutd']" routerDirection="forward">Manchester Utd</li>
+    <br>
+    <li [routerLink] ="['/app.componet.ts']" routerDirection="forward">Managers</li>
+  </ul>
+ </table>
+ 
+</ion-content>
+
